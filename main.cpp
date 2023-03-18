@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int a = 1;
+    int a = 9900;
     Reverser re;
     int result = re.reverseDigit(a);
     cout << result << endl;
