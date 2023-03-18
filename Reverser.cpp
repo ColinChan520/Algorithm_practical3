@@ -3,7 +3,10 @@
 using namespace std;
 
 int Reverser:: reverseDigit(int value){
-    if(value > 0){
+    if(value < 0){
+        return -1;
+    }
+    else if(value > 0){
         numResult = numResult*10 + value%10;
         return reverseDigit(value/10);
     }
@@ -13,6 +16,9 @@ int Reverser:: reverseDigit(int value){
 }
 
 string Reverser::reverseString(string characters){
+    if(characters.length() < 1){
+        return "ERROR";
+    }
     if(characters.length() > 1){
         string first(1, characters[0]);
         string subString = characters.substr(1); // cut off from index 1
