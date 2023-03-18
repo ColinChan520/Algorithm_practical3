@@ -9,6 +9,7 @@ int Reverser:: reverseDigit(int value){
     }
     else{
         return numResult;
+        cout << numResult << endl;
     }
 }
 
