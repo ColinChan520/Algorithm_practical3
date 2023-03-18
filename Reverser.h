@@ -8,8 +8,6 @@ class Reverser{
     int reverseDigit(int value);
     std::string reverseString(std::string characters);
     int numResult = 0;
-
-    
 };
 
 #endif
