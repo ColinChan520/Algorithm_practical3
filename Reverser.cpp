@@ -3,7 +3,7 @@
 using namespace std;
 
 int Reverser:: reverseDigit(int value){
-    if(value != 0){
+    if(value > 0){
         numResult = numResult*10 + value%10;
         reverseDigit(value/10);
     }
