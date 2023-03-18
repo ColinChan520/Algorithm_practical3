@@ -1,4 +1,5 @@
-#include <iostream>
+#include "Truckloads.h"
+
 using namespace std;
 
 int numTrucks(int numCrates, int loadSize) {
